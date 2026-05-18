@@ -38,7 +38,7 @@ def solve_logistics(capacities, logs):
                     if is_open[i]:
                         current_load[i] = 0
                 # Re-run the package logic (simplified here)
-                # In a real test, you'd wrap the search in a function
+                # In a real test, I'd wrap the search in a function
     
     # Return index of max; if tie, return highest index
     max_val = -1
